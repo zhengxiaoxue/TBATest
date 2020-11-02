@@ -23,13 +23,13 @@ Please make sure the ports 8081 and 8082 are available. Port 8081 is for Restful
 Run Main.class, open your browser, visit http:localhost:8081
 
 ### Run from command:
-1). Go to the base directory run: maven clean assembly:assembly
+#### Go to the base directory run: maven clean assembly:assembly
 You can use –Dmaven.test.skip to speed up
-2). cd target/
-3) java –jar TBATask.jar
+#### cd target/
+#### java –jar TBATask.jar
 OR
-From this directory, run java –jar TBATask.jar
-Then visit http://localhost:8081/index.html
+#### From this directory, run java –jar TBATask.jar
+#### Visit http://localhost:8081/index.html
 
   ![Architecture](https://github.com/zhengxiaoxue/TBATest/blob/main/Architecture%20(1).png)
 
