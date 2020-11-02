@@ -23,18 +23,18 @@ Please make sure the ports 8081 and 8082 are available. Port 8081 is for Restful
 Run Main.class, open your browser, visit http:localhost:8081
 
 ### Run from command:
-* Go to the base directory run: maven clean assembly:assembly
+* Go to the base directory run: mvn clean assembly:assembly
 You can use –Dmaven.test.skip to speed up
 * cd target/
 * java –jar TBATask.jar
-OR
+  OR
 * From this directory, run java –jar TBATask.jar
 * Visit http://localhost:8081/index.html
 
   ![Architecture](https://github.com/zhengxiaoxue/TBATest/blob/main/Architecture%20(1).png)
 
 ### Design Notice:
-When moving a crane, if there are other cranes in the way, , we have to move away these cranes. So I suppose all the cranes are same, when I move the crane I just move cranes to left or right together until one crane reached the target position and also keep positions previous having crane still having crane. Hope this suppose doesn’t violate the user case.
+When moving a crane, if there are other cranes in the way, we have to move away these cranes. So I suppose all the cranes are same, when I move the crane I just move cranes to left or right together until one crane reached the target position and also keep positions previous having crane still having crane. Hope this suppose doesn’t violate the user case.
 
 
 
