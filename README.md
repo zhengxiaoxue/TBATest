@@ -13,7 +13,7 @@ Build an application with moving cranes on a straight track (ASC), 2 per track, 
 5. Maven
 
 ## Architecture
- ![image](https://github.com/zhengxiaoxue/TBATest/blob/main/UI.png)
+ ![UI](https://github.com/zhengxiaoxue/TBATest/blob/main/UI.png)
 ## Run
 
 This project is maven based, to run this project you must have the environment with >=Java8 and Maven3.x, IntelliJ IDEA is highly recommended. 
@@ -31,7 +31,7 @@ OR
 From this directory, run java –jar TBATask.jar
 
 Then visit http://localhost:8081/index.html
-![image](https://github.com/zhengxiaoxue/TBATest/blob/main/Architecture%20(1).png)
+![Architecture](https://github.com/zhengxiaoxue/TBATest/blob/main/Architecture%20(1).png)
 
 ### Design Notice:
 When moving a crane, if there are other cranes in the way, , we have to move away these cranes. So I suppose all the cranes are same, when I move the crane I just move cranes to left or right together until one crane reached the target position and also keep positions previous having crane still having crane. Hope this suppose doesn’t violate the user case.
